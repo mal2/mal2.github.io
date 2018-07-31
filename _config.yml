@@ -1,0 +1,72 @@
+# Site settings
+title: Kenneth Bartsch
+name: Kenneth Bartsch
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/mal2
+ - title: LinkedIn
+   url: www.linkedin.com/in/kenneth-bartsch-371a67140
+
+#Any buzzword skills you want to include
+skills:
+ - Python
+ - Mathematica
+ - C
+ - Java
+ - Physics
+ - Machine Learning
+ - Bash
+ - Terminal
+ - Linux
+
+#Work experience is required
+roles:
+ - title: Student Assistant
+   start: 2012
+   end: Ongoing
+   employer: Freie Universität Berlin
+   description: Primarily working on the relabling of the old labeling system to the new RVK-System (Regensburger Verbundklassifikation) and technical and IT support with a side project to simplify workflow in the integrated library systems Aleph and Alma. Aditionaly assisting at a Research Data Management project to trial strategies for the needs of east asia and the orient (FDM-OAS-Orient)
+  
+#Education is required
+education:
+ - level: Bachelor of Science (B.Sc.)
+   date: ongoing
+   subject: Physics
+   school: Freie Universität Berlin
+   
+education:
+ - level: Training as Office Manager
+   date: 2006
+   subject: Organising all of the administrative activities that facilitate the smooth running of an office
+   school: bbw Bildungszentrum Strausberg
+
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - mal2/24in1
+ - mal2/Project-Simulation
+ - mal2/sally
+ - mal2/Pfandrechner
+ - mal2/BusyBubble
+
+#Mobile apps section is optional
+apps:
+ - name: Pfandrechner (Deposit Calculator)
+   platform: Android
+   url: https://play.google.com/store/apps/details?id=com.kbartsch.pfandrechner
+   description: A basic early Android app
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+   <strong>Science</strong>: I am experienced in scientific modeling and data analysis. <br/><br/>
+   
+   <strong>Development</strong>: I have a good knowledge of Python, C and Mathematica and have worked with SVN, Git and Gradle. I have experience with with Kotlin, Java, C# and unit testing.<br/><br/>
+   
+   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Machine Learning and Android <br/><br/>
+
