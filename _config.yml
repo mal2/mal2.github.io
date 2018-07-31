@@ -41,7 +41,6 @@ education:
    subject: Physics
    school: Freie Universität Berlin
    
-education:
  - level: Training as Office Manager
    date: 2006
    subject: Organising all of the administrative activities that facilitate the smooth running of an office
@@ -63,6 +62,23 @@ apps:
    url: https://play.google.com/store/apps/details?id=com.kbartsch.pfandrechner
    description: A basic early Android app
 
+hackathons:
+ - title: LGBTI hackathon
+   company: Erasys GmbH
+   date: 2017
+   description: Developed with a team of 3 a small app in flask to compare gay right in two different countries (e.g. in home country and travel destination)
+
+ - title: Hashcode
+   company: Google
+   date: 2017
+   description: With a team of 3 scored 3rd place at the FU Berlin Hub
+
+ - title: Unity Game Development
+   company: Windows
+   date: 2016
+   description: With a team of 4 we developed a simple Unity game
+
+
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
    <strong>Science</strong>: I am experienced in scientific modeling and data analysis. <br/><br/>
@@ -72,4 +88,4 @@ additionalinfo: |
    I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Machine Learning and Android <br/><br/>
 
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
