@@ -13,6 +13,14 @@ table {
 	font-size:16px;
 }
 
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 32px;
+    line-height: 20px;
+
+
 .overlay { 
   display:none; 
   position:absolute; 
@@ -129,7 +137,7 @@ table {
     border-top-right-radius: 5px;
 }
 .top-rounded-panel h1{
-	color: #ff3500;
+	color: #000050;
 	font-weight: 300;
 	padding-top: 15px;
 }
