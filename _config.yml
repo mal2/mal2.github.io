@@ -1,0 +1,87 @@
+# Site settings
+title: Kenneth Bartsch
+email: k.b@fu-berlin.de
+name: Kenneth Bartsch
+url: "https://mal2.github.io/"
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/mal2
+ - title: LinkedIn
+   url: https://linkedin.com/in/kenneth-bartsch-371a67140
+
+#Any buzzword skills you want to include
+skills:
+ - Python
+ - Mathematica
+ - C
+ - Java
+ - JavaScript
+ - Physics
+ - Machine Learning
+ - Bash
+ - Terminal
+ - Linux
+
+#Work experience is required
+roles:
+ - title: Student Assistant
+   start: 2012
+   end: Ongoing
+   employer: Freie Universität Berlin
+   description: Primarily working on the relabling of the old labeling system to the new RVK-System (Regensburger Verbundklassifikation) and technical and IT support with a side project to simplify workflow in the integrated library systems Aleph and Alma. Aditionaly assisting at a Research Data Management project to trial strategies for the needs of east asia and the orient (FDM-OAS-Orient)
+  
+#Education is required
+education:
+ - level: Bachelor of Science (B.Sc.)
+   date: Ongoing
+   subject: Physics
+   school: Freie Universität Berlin
+   
+ - level: Training as Office Manager
+   date: 2006
+   subject: Organising all of the administrative activities that facilitate the smooth running of an office
+   school: bbw Bildungszentrum Strausberg
+
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - mal2/24in1
+ - mal2/Project-Simulation
+ - mal2/sally
+ - mal2/Pfandrechner
+ - mal2/BusyBubble
+
+#Mobile apps section is optional
+apps:
+ - name: Pfandrechner (Deposit Calculator)
+   platform: Android
+   url: https://play.google.com/store/apps/details?id=com.kbartsch.pfandrechner
+   description: A basic early Android app
+
+hackathons:
+ - title: LGBTI hackathon
+   company: Erasys GmbH
+   date: 2017
+   description: Developed with a team of 3 a small app (<a href='http://github.com/mal2/sally'>Sally</a>) in flask to compare gay right in two different countries (e.g. in home country and travel destination)
+
+ - title: Hashcode
+   company: Google
+   date: 2017
+   description: With a team of 3 scored 3rd place at the FU Berlin Hub
+
+ - title: Unity Game Development
+   company: Windows
+   date: 2016
+   description: With a team of 4 we developed a simple Unity game
+
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+
+
+#theme: jekyll-theme-minimal

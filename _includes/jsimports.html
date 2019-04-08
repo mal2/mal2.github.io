@@ -1,0 +1,32 @@
+<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>-->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" async="" src="./js/jquery.githubRepoWidget.custom.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>-->
+
+<script>
+	var doc = new jsPDF();
+	$('.download-pdf').click(function(){
+		// All units are in the set measurement for the document
+		// This can be changed to "pt" (points), "mm" (Default), "cm", "in"
+		doc.fromHTML($('body').get(0), 15, 15, {'width': 170,});
+		console.log('click!')
+	});
+</script>
+
+{% if site.blogfeed %}
+	<script  type="text/javascript">
+	(function() {
+		
+		$.get("{{site.blogfeed}}", function (data) {
+			$(data).find("entry").each(function () { // or "item" or whatever suits your feed
+        			var el = $(this);
+        			console.log("------------------------");
+        			console.log("title      : " + el.find("link").text());
+        			console.log("author     : " + el.find("title").text());
+    			});
+		},
+     		"jsonp");
+	})();
+	</script>
+{% endif %}
